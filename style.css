@@ -41,5 +41,9 @@ body {
   border: 1px solid purple;
   font-size: 1rem;
   padding: 0.5em 1em;
+  transition: background 0.3s ease-in-out;
 }
 
+.menu-items li a:hover {
+  background-color: #ccc7d3; /* Good to show the padding region of the <a> */
+}
