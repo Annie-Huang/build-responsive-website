@@ -5,3 +5,5 @@ https://github.com/codeSTACKr/build-responsive-website
 https://github.com/Annie-Huang/build-responsive-website
 
 ======================================================================
+
+C:\react\build-responsive-website>npm init -y
