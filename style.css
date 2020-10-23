@@ -13,7 +13,7 @@ body {
 
 /* header */
 .header {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   position: fixed;
   top: 0;
   left: 0;
@@ -24,21 +24,21 @@ body {
 }
 
 .header a {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   text-decoration: none;
   color: #111111;
   font-size: 2rem;
 }
 
 .menu-items {
-  border: 1px solid;
+  /*border: 1px solid;*/
   list-style: none;
   display: flex;
   align-items: center;
 }
 
 .menu-items li a {
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
   font-size: 1rem;
   padding: 0.5em 1em;
   transition: background 0.3s ease-in-out;
