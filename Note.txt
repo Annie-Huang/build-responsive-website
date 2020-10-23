@@ -4,6 +4,7 @@ https://www.youtube.com/watch?v=nME3fE3c9Qw&t=97s
 https://github.com/codeSTACKr/build-responsive-website
 https://github.com/Annie-Huang/build-responsive-website
 
+https://www.heropatterns.com/       << Search "Overlapping Circles"
 ======================================================================
 
 C:\react\build-responsive-website>npm init -y
