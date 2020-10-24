@@ -131,6 +131,15 @@ body {
     width: calc(200% + 1.3px);
     height: 150px;
   }
+
+  .hero-col {
+    max-width: 100%;
+    width: clamp(300px, 50vw, 600px);
+    padding: 0;
+  }
+  .hero-img {
+    display: none;
+  }
 }
 
 /* media query for mobile devices */
