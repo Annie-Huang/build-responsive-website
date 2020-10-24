@@ -82,6 +82,20 @@ body {
 .menu-btn__lines::after {
   transform: translateY(0.5rem);
 }
+/* animation */
+.menu-btn.open .menu-btn__lines {
+  /* The middle line is move right for 2rem and disappear */
+  transform: translateX(2rem);
+  background-color: transparent;
+}
+.menu-btn.open .menu-btn__lines::before {
+  /* Because the middle line is shifted to the right, the ::before and ::after is shifted as well, need to move them back. */
+  transform: rotate(45deg) translate(-1.5rem, 1.5rem);
+}
+.menu-btn.open .menu-btn__lines::after {
+  transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
+}
+
 
 /* sections */
 .section {
