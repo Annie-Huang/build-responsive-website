@@ -71,7 +71,6 @@ body {
   max-width: 50%;
 }
 
-/* ??? Not sure why the 1st col use .section while 2nd col used .hero-section */
 .section h1 {
   font-family: "Titillium Web", serif;
   font-size: clamp(60px, 8vw, 200px);
@@ -118,6 +117,12 @@ body {
 .custom-shape-divider .shape-fill {
   fill: #ffffff;
 }
+
+/* another section */
+.another-col {
+  width: clamp(300px, 50vw, 600px);
+}
+
 
 /* media query for tablet devices */
 @media (max-width: 1023px) {
