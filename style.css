@@ -148,6 +148,10 @@ body {
     width: calc(250% + 1.3px);
     height: 150px;
   }
+
+  .header a {
+    font-size: 1rem;
+  }
 }
 
 
