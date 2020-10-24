@@ -5,6 +5,7 @@ https://github.com/codeSTACKr/build-responsive-website
 https://github.com/Annie-Huang/build-responsive-website
 
 https://www.heropatterns.com/       << Search "Overlapping Circles"
+https://www.shapedivider.app/
 ======================================================================
 
 C:\react\build-responsive-website>npm init -y

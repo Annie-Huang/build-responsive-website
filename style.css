@@ -98,7 +98,26 @@ body {
   transform: scaleX(-1);
 }
 
+/* custom shape for hero section */
+/* https://www.shapedivider.app/ */
+.custom-shape-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
 
+.custom-shape-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider .shape-fill {
+  fill: #ffffff;
+}
 
 
 
