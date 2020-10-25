@@ -210,11 +210,14 @@ body {
     right: 0;
     left: 0;
     height: 100vh;
-    /*transform: translateX(100vw);*/
+    transform: translateX(100vw);
     background-color: #5a4d70;
+    transition: transform 0.3s ease-in-out;
+  }
+  .menu-items.open {
+    transform: translateX(0);
   }
 }
-
 
 
 
