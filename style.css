@@ -54,7 +54,7 @@ body {
 .menu-btn {
   /*border: 1px solid red;*/
   position: relative;
-  display: flex;
+  display: none; /* only when in mobile it display flex */
   justify-content: center;
   align-items: center;
   width: 1.5rem;
@@ -199,8 +199,21 @@ body {
   .header a {
     font-size: 1rem;
   }
+  .menu-btn {
+    display: flex;
+  }
+  .menu-items {
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    /*transform: translateX(100vw);*/
+    background-color: #5a4d70;
+  }
 }
-
 
 
 
